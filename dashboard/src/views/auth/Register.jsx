@@ -15,7 +15,7 @@ const Register = () => {
     const { loader, errorMessage, successMessage } = useSelector(state => state.auth)
     const [state, setSatate] = useState({
         name: '',
-        email: "",
+        email: '',
         password: ''
     })
     const inputHandle = (e) => {
